@@ -1,0 +1,7 @@
+{
+  "name": "decent-cloud",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

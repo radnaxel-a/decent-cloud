@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "decent-cloud",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
