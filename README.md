@@ -5,15 +5,17 @@ What can be found here is an Hybrid mobile app running Ionic Capacitor and Angul
 
 # How to run
 ## Requirements
-NodeJS version ~12 `https://nodejs.org/en/`
+NodeJS version ~12 ```https://nodejs.org/en/```
 
-Angular version ^13 `npm i @angular/cli -g`
+Angular version ^13 ```$ npm i @angular/cli -g```
 
 
-## How to start
+## Start
 ```
 $ git clone https://github.com/terranmarine/decent-cloud.git
 $ cd decent-cloud 
 $ npm i
 $ ng s
 ```
+
+After build is complete open ```localhost:4200```
