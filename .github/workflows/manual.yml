@@ -37,3 +37,6 @@ jobs:
       run: ls -lart
     - name: test history
       run: history
+    - name: path
+      run: pwd
+      
