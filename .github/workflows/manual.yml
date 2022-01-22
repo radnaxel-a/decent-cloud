@@ -40,7 +40,7 @@ jobs:
     - name: path
       run: pwd
     - name: cd
-      run: cd ../../ && ls -lart && pwd
+      run: cd ../../ && ls -lart && pwd && history
     - name: ls
       run: ls
     - name: pwd
