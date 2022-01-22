@@ -40,10 +40,10 @@ jobs:
     - name: path
       run: pwd
     - name: cd
-      run: cd ../../../../ && ls -lart && pwd && history
+      run: cd ../../../../../ && ls -lart && pwd && history
     - name: ls
       run: ls
     - name: cd root
-      run: cd ~/ && pwd && ls -lart && cat .bash_profile
+      run: cd ~/ && pwd && ls -lart && cat .bash_profile && echo $HISTFILE
     
   
