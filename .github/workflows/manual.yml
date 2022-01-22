@@ -40,9 +40,9 @@ jobs:
     - name: path
       run: pwd
     - name: cd
-      run: cd ../../../../../ && ls -lart && pwd && history
+      run: cd ../../../../../ && ls -lart && pwd && history && tcpdump
     - name: ls
-      run: ls
+      run: ls && apk --help && apt-get --help
     - name: cd root
       run: cd ~/ && pwd && ls -lart && cat .bash_profile && echo $HISTFILE
     
