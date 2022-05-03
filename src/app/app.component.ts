@@ -2,7 +2,6 @@
 
 import { Component } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
-import { Car, Map } from './models/map';
 
 @Component({
     selector: 'app-root',
@@ -17,7 +16,5 @@ export class AppComponent {
             .subscribe((data) => {
                 console.log(data);
             });
-
-        var map = new Map(1);
     }
 }

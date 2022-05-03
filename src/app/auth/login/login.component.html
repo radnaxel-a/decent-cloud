@@ -1,0 +1,27 @@
+<ion-content>
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Login</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+            <form [formGroup]="form">
+                <ion-item>
+                    <ion-label position="floating">Email</ion-label>
+                    <ion-input formControlName="email"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label position="floating">Password</ion-label>
+                    <ion-input
+                        formControlName="password"
+                        type="password"
+                    ></ion-input>
+                </ion-item>
+
+                <ion-item button (click)="login()">
+                    <ion-label class="ion-text-center">Submit</ion-label>
+                </ion-item>
+            </form>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

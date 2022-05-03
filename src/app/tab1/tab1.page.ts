@@ -11,6 +11,7 @@ export class Tab1Page {
     public async onFilePick(files: FileList) {
         const base64 = await this.encodeFileToBase64(files.item(0));
         const imageChunks = this.splitImage(base64);
+        console.log(imageChunks);
 
         // get users
 
@@ -20,7 +21,7 @@ export class Tab1Page {
 
         // hash the map with password
 
-        // send the map to the cound
+        // send the map to the cloud
     }
 
     public splitImage(base64: string): string[] {
