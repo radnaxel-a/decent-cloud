@@ -1,5 +1,5 @@
-/** @format */
-
-export class Map {
-    constructor(public integer: number) {}
+export interface Map {
+    userId: string;
+    name: string;
+    chunkCount: number;
 }

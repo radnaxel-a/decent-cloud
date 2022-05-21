@@ -8,7 +8,7 @@
             <form [formGroup]="form">
                 <ion-item>
                     <ion-label position="floating">Email</ion-label>
-                    <ion-input formControlName="email"></ion-input>
+                    <ion-input formControlName="email" type="email"></ion-input>
                 </ion-item>
                 <ion-item>
                     <ion-label position="floating">Password</ion-label>
@@ -22,7 +22,7 @@
                     <ion-label class="ion-text-center">Submit</ion-label>
                 </ion-item>
             </form>
-            <ion-item routerLink="/register">
+            <ion-item routerLink="/auth/register">
                 <ion-label class="ion-text-center">register</ion-label>
             </ion-item>
         </ion-card-content>

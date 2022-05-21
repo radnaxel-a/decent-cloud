@@ -1,6 +1,11 @@
 <ion-header [translucent]="true">
     <ion-toolbar>
         <ion-title> Tab 3 </ion-title>
+        <ion-buttons slot="end">
+            <ion-button (click)="requestFiles()"
+                >Request File chunks</ion-button
+            >
+        </ion-buttons>
     </ion-toolbar>
 </ion-header>
 
@@ -10,4 +15,9 @@
             <ion-title size="large">Tab 3</ion-title>
         </ion-toolbar>
     </ion-header>
+
+    <ion-item *ngFor="let chunk of chunksToDisplay">
+        <ion-label>{{chunk.mapId}}</ion-label>
+        <ion-note>{{chunk.chunksPosition}}</ion-note>
+    </ion-item>
 </ion-content>

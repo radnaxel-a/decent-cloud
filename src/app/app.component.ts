@@ -1,8 +1,10 @@
 /** @format */
 
 import { Component } from '@angular/core';
+import { FirebaseApp } from '@angular/fire/app';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
-import * as fb from 'firebase/auth';
+import { Capacitor } from '@capacitor/core';
+import { getAuth } from 'firebase/auth';
 
 @Component({
     selector: 'app-root',

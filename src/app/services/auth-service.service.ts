@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
-import { User } from 'firebase/auth';
+import { getAuth, User } from 'firebase/auth';
 
 @Injectable({
     providedIn: 'root',
@@ -15,6 +15,6 @@ export class AuthService {
 
     public logOut(): void {
         sessionStorage.clear();
-        this.router.navigate(['login']);
+        this.router.navigate(['auth', 'login']);
     }
 }

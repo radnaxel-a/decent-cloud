@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "233357043398",
+    "firebase_url": "https://dapp-3b907-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "dapp-3b907",
+    "storage_bucket": "dapp-3b907.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233357043398:android:92b67f19e273095dc1d9c7",
+        "android_client_info": {
+          "package_name": "com.utp.dapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233357043398-m6f65emctcsjp92kg5c7bishq9toh13r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdHkwXqlLUM04rRjvFeUC9QY4RGQKVqJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233357043398-m6f65emctcsjp92kg5c7bishq9toh13r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

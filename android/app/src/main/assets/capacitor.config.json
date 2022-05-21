@@ -1,0 +1,6 @@
+{
+	"appId": "com.utp.dapp",
+	"appName": "decent-cloud",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
